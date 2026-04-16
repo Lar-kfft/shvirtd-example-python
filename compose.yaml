@@ -1,0 +1,15 @@
+services:
+  python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    container_name: web_python
+    ports:
+      - "5000:5000"
+    networks:
+      - app_network
+    restart: unless-stopped
+
+networks:
+  app_network:
+    driver: bridge
