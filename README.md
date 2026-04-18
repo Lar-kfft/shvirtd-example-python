@@ -94,3 +94,32 @@ curl http://localhost:5000
 ## Лицензия
 
 Этот проект распространяется под лицензией MIT (подробности в файле `LICENSE`).
+
+---
+
+## Выполненные домашние задания
+
+### Задача 3 (Docker Compose + MySQL)
+Запуск проекта через docker compose. SQL-запрос к базе данных:
+
+![SQL запрос](screenshots/task3_sql.png)
+
+### Задача 4 (Повтор SQL-запроса)
+Повтор SQL-запроса на сервере:
+
+![SQL запрос](screenshots/task4_sql.png)
+
+### Задача 6 (dive + docker save + docker cp)
+
+![Task6 dive + save](screenshots/task6_dive_save_cp.png)
+![Task6 docker cp](screenshots/task6_docker_cp.png)
+
+### Задача 6.1 (docker cp)
+Копирование бинарного файла с помощью `docker cp`:
+
+![Task6.1](screenshots/task6.1_docker_cp.png)
+
+### Проверка работы проекта
+```bash
+curl http://localhost:8090
+# "TIME: 2026-04-16 14:39:09, IP: 127.0.0.1"
