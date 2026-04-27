@@ -109,10 +109,11 @@ curl http://localhost:5000
 
 ![SQL запрос](screenshots/task4_sql.png)
 
-### Задача 6 (dive + docker save + docker cp)
+### Задача 6 (dive + docker save)
+Извлечение бинарного файла `/bin/terraform` из образа через `docker save` + `docker export` + `tar`:
 
 ![Task6 dive + save](screenshots/task6_dive_save_cp.png)
-![Task6 docker cp](screenshots/task6_docker_cp.png)
+![Task6 correct](screenshots/task6_correct/task6new.png)
 
 ### Задача 6.1 (docker cp)
 Копирование бинарного файла с помощью `docker cp`:
